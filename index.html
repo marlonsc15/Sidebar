@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sidebar</title>
+    
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <img src="images/menu.svg" alt="menu" id="btn">
+        </div>        
+        <ul class="nav_list"> 
+            <li>
+                <a href="#">
+                    <img class="search" src="images/search.svg" alt="search">
+                    <input type="text" placeholder="Buscar...">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/grid.svg" alt="grid">
+                    <span class="links_name">Dashboad</span>
+                </a>
+                <span class="tooltip">Dashboad</span>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/pet.svg" alt="pets">
+                    <span class="links_name">Pets</span>
+                </a>
+                <span class="tooltip">Pets</span>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/user.svg" alt="user">
+                    <span class="links_name">Clientes</span>
+                </a>
+                <span class="tooltip">Clientes</span>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/vet.svg" alt="vets">
+                    <span class="links_name">Vets</span>
+                </a>
+                <span class="tooltip">Vets</span>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/settings.svg" alt="settings">
+                    <span class="links_name">Ajustes</span>
+                </a>
+                <span class="tooltip">Ajustes</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="images/photo.jpg" alt="photo">
+                    <div class="name_job">
+                        <div class="name">Eleanor Pena</div>
+                        <div class="job">Veterinária</div>
+                    </div>
+                </div>
+                <img src="images/log-out.svg" alt="log_out" id="log_out">
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="text">Dashboad</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
