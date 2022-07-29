@@ -141,16 +141,13 @@ body {
     color: var(--text-color);
     top: 7px;
     transition: all 0.9 ease;
-    background: var(--light-grey);
+    
     height: 35px;
     
     
 }
 
-.sidebar ul li .search:hover {
-    background: var(--light-grey);
-    color: var(--text-color);
-}
+
 
 .sidebar ul li a {
     color: var(--text-color);
